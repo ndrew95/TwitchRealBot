@@ -7,7 +7,9 @@ This bot has used this brute-force method to interact with Twitch.tv users witho
 
 After this stremer switched versions of World of Warcraft, the bot picked up that a lot of users sent messages containing the words "bfa," (short for Battle of Azeroth). and "Classic."
 
-After seeing these messages, the bot asked "are you playing classic wow or BFA?" 
+After seeing these messages, the bot asked:
+
+![Image](https://github.com/ndrew95/TwitchRealBot/blob/master/botMessage.png)
 
 The streamer responded to the bot as if it was a real person asking the question, saying: "Are you playing classic wow or BFA? I'm just doing classic, I was doing 3s for a while (referring to 3v3 arena in BFA), I got *explicative* farmed for a while, bro. We got *explicative* farmed my boys.
 
