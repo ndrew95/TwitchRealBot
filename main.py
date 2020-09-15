@@ -147,13 +147,13 @@ while True:
 					#if a similar message has been sent at least three times, try to find a similar message, and send it to the chat.
 					if wordCount>= 3 and time.time() > botPause:
 
-						#if a similar messages are being sent, but does not exist in the file, break the loop.
+						#if similar messages are being sent, but the keyword does not exist in the file, break the loop.
 						wordNotExist = wordsusedString.find(keywordTest.rstrip())
 						if wordNotExist ==-1:
 							wordCount = 0
 							break
 
-						#if the word exists, search for a sentence that contains the word.
+						#if the keyword exists, search for a sentence that contains the keyword.
 						else:
 							sendWord = re.search(r'([^.]*?(\b%s\b).*?\.)(?!\d)' % keywordTest,wordsusedStringBetter)
 
