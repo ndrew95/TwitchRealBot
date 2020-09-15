@@ -78,7 +78,6 @@ while True:
 			
 
 		else:
-
 			if 'QUIT' not in parts[1] and 'JOIN' not in parts[1] and 'PART' not in parts[1]:
 				try:
 					message = parts[2][:len(parts[2]) - 1]
@@ -127,7 +126,6 @@ while True:
 							
 
 						messagesList.append(i)
-					
 	
 					#shuffle the messages to reduce the chances of a duplicate message
 					random.shuffle(wordsused)
@@ -176,14 +174,10 @@ while True:
 					#if a message isn't sent by the bot, append what message it sees to the file to be referenced later.
 					else:
 						chatAppend.write(str(message).replace('\\r', '') + '. ')
-				
 
 					chatAppend.close()
 					chatRead.close()
-					randNumbz.close()
-					randNumbzx.close()
-
-
+					
 				for l in parts:
 					if 'End of /NAMES list' in l:
 						MODT = True
