@@ -9,7 +9,7 @@ After this stremer switched versions of World of Warcraft, the bot picked up tha
 
 After seeing these messages, the bot asked "are you playing classic wow or BFA?" 
 
-The streamer responded to the bot as if it was a real person asking the question, saying: "Are you playing classic wow or BFA? I'm just doing classic, I was doing 3s for a while (referring to 3v3 arena in BFA), I got explicative farmed for a while, bro. We got explicative farmed my boys.
+The streamer responded to the bot as if it was a real person asking the question, saying: "Are you playing classic wow or BFA? I'm just doing classic, I was doing 3s for a while (referring to 3v3 arena in BFA), I got *explicative* farmed for a while, bro. We got *explicative* farmed my boys.
 
 The streamer's response to the bot can be seen in the .mov file in this repository.
 
