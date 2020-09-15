@@ -7,7 +7,7 @@ This bot has used this brute-force method to interact with Twitch.tv users witho
 
 After this stremer switched versions of World of Warcraft, the bot picked up that a lot of users sent messages containing the words "bfa," (short for Battle of Azeroth). and "Classic."
 
-After seeing these messages, the bot asked:
+After seeing these messages, the bot asked: "Are you playing classic wow, or BFA?"
 
 ![Image](https://github.com/ndrew95/TwitchRealBot/blob/master/botMessage.png)
 
