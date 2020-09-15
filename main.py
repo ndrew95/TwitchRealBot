@@ -136,21 +136,19 @@ while True:
 						messagesList.append(i)
 					
 	
+					#shuffle the messages to reduce the chances of a duplicate message
 					random.shuffle(wordsused)
-					countMes = 0
-					words=[]
-					
 					
 					for i in wordsused:
 						wordsusedString+=i
 
 					wordsusedList = wordsusedString.split('. ')
 					
+					#shuffle the message again to ensure the message isn't a duplicate
 					random.shuffle(wordsusedList)
 					
 					for i in wordsusedList:
 						wordsusedStringBetter+=i + '. '
-						
 						
 					#if a similar message has been sent at least three times, try to find a similar message, and send it to the chat.
 					if wordCount>= 3 and time.time() > botPause:
