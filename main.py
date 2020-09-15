@@ -106,7 +106,6 @@ while True:
 					chatRead=open('dataChat2.txt', 'r')
 
 					wordsused = chatRead.readlines()
-					listwords = chatAppend.read()
 					randNumbz=open('commonChat.txt', 'a+')
 
 					#append all messages to a txt file
