@@ -197,7 +197,3 @@ while True:
 
 	chatAppend.close()
 	chatRead.close()
-	f.close()
-	xy.close()
-	randNumbz.close()
-	randNumbzx.close()
