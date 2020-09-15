@@ -49,8 +49,7 @@ while True:
 	try:
 		chatAppend.close()
 		chatRead.close()
-		randNumbz.close()
-		randNumbzx.close()
+		
 		del wordsusedStringBetter
 		wordsusedStringBetter = ''
 
@@ -106,13 +105,7 @@ while True:
 					chatRead=open('dataChat2.txt', 'r')
 
 					wordsused = chatRead.readlines()
-					randNumbz=open('commonChat.txt', 'a+')
-
-					#append all messages to a txt file
-					randNumbz.write(str(message).replace('\\r','') + '. ')
-					randNumbzx=open('commonChat.txt', 'r')
-
-
+					
 					#create a list of the most recent messages
 					keywordstest = message.split(' ')
 
@@ -143,6 +136,22 @@ while True:
 						messagesList.append(i)
 					
 	
+					random.shuffle(wordsused)
+					countMes = 0
+					words=[]
+					
+					
+					for i in wordsused:
+						wordsusedString+=i
+
+					wordsusedList = wordsusedString.split('. ')
+					
+					random.shuffle(wordsusedList)
+					
+					for i in wordsusedList:
+						wordsusedStringBetter+=i + '. '
+						
+						
 					#if a similar message has been sent at least three times, try to find a similar message, and send it to the chat.
 					if wordCount>= 3 and time.time() > botPause:
 
