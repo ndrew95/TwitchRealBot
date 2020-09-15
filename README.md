@@ -11,7 +11,7 @@ After seeing these messages, the bot asked: "Are you playing classic wow, or BFA
 
 ![Image](https://github.com/ndrew95/TwitchRealBot/blob/master/botMessage.png)
 
-The streamer responded to the bot as if it was a real person asking the question, reesponding: "Are you playing classic wow or BFA? Right now I'm just doing some classic, I was playing 3s for a while (referring to 3v3 arena in BFA). Dude, we kinda got *explicative* farmed for a while, bro. We got *explicative* farmed my boys."
+The streamer responded to the bot as if it was a real person asking the question, responding: "Are you playing classic wow or BFA? Right now I'm just doing some classic, I was playing 3s for a while (referring to 3v3 arena in BFA). Dude, we kinda got *explicative* farmed for a while, bro. We got *explicative* farmed my boys."
 
 The streamer's response to the bot can be seen in the .mov file in this repository.
 
