@@ -3,12 +3,15 @@ This bot will interact with a chat channel, attempting to make users in the chan
 
 After repeated use, this bot can interact with other users without other users thinking it is a bot. With brute-force, this bot can simulate messages which will align with the general sentiment of the chat.
 
-This bot has used this brute-force method to interact with Twitch.tv users without them knowing it is a bot. The most potent example was during a World of Warcraft stream, when the streamer went from playing World of Warcraft: Battle For Azeroth to World of Warcraft: Classic.
+This bot has used this brute-force method to interact with Twitch.tv users without them knowing it is a bot. The most potent example was during a World of Warcraft stream, when the streamer went from playing "World of Warcraft: Battle For Azeroth" to "World of Warcraft: Classic".
 
 After this stremer switched versions of World of Warcraft, the bot picked up that a lot of users sent messages containing the words "bfa," (short for Battle of Azeroth). and "Classic."
 
 After seeing these messages, the bot asked "are you playing classic wow or BFA?" 
 
-The streamer responded to the bot as if it was a real person asking the question. 
+The streamer responded to the bot as if it was a real person asking the question, saying: "Are you playing classic wow or BFA? I'm just doing classic, I was doing 3s for a while (referring to 3v3 arena in BFA), I got explicative farmed for a while, bro. We got explicative farmed my boys.
+
+The streamer's response to the bot can be seen in the .mov file in this repository.
+
 
 
