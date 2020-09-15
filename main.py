@@ -23,8 +23,6 @@ PASS = b'[YOURINFO]'
 readbuffer = b''
 MODT = False
 
-messageCount = 0
-messageCountSub = 0
 wordsusedString = ''
 wordsusedStringBetter = ''
 messagesList = []
@@ -57,16 +55,11 @@ while True:
 	
 	except:
 		wordsusedStringBetter = ''
-
 		gc.collect()
 	
 	readbuffer = readbuffer+ s.recv(1024)
 	temp = readbuffer.split(b'\n')
-
 	readbuffer = temp.pop()
-
-	messageCount = messageCount+1
-	messageCountSub = messageCountSub + 1
 
 	for line in temp:
 		del wordsusedStringBetter
