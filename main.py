@@ -1,3 +1,7 @@
+#Author: Nicholas Shipley
+#Date: December 2019
+#Program: This bot will attempt to interact with users in a Twitch chat, using past messages to appear as a real user.
+
 #!/usr/bin/env python
 '# -- coding: utf-8 --' 
 import socket, string
